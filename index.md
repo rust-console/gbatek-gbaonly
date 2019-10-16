@@ -4,6 +4,7 @@
 Gameboy Advance Technical Info - Extracted from no$gba version 2.9b
 
 ---
+
 **THIS DOCUMENT IS ONLY THE GBA PORTION OF GBATEK**
 
 * The [full markdown fork](https://mgba-emu.github.io/gbatek/) has the entire document in markdown form.
@@ -16,6 +17,7 @@ returns, so mostly I just cut the DS and DSi stuff and called it good.
 
 [PRs welcome](https://github.com/rust-console/gbatek-gbaonly/pulls) if you want
 to improve this document further.
+
 ---
 
 [About this Document](#aboutthisdocument)
