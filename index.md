@@ -1,4 +1,10 @@
-# ALERT
+<a name="contents"></a><a name="gbatek"></a>
+
+# GBATEK - GBA Only
+
+Gameboy Advance Technical Info - Extracted from no$gba version 2.9b
+
+## About This Fork
 
 **THIS DOCUMENT IS ONLY THE GBA PORTION OF GBATEK**
 
@@ -6,17 +12,13 @@
 * The [full original version](https://problemkaputt.de/gbatek.htm) is in HTML form.
 
 I started with the full markdown and then just deleted sections that were
-obviously not needed for GBA development. The goal is to make a smaller document
-that's easier for browsers to render and search through. There's diminishing
-returns, so mostly I just cut the DS and DSi stuff and called it good.
+obviously not needed for GBA development. The goal is to have a significantly
+smaller document that's easier for browsers to render and search through.
+Without the DS and DSi content it's about 1/6th as large as the full thing.
 
-[PRs welcome](https://github.com/rust-console/gbatek-gbaonly/pulls) if you want
-to improve this document further.
-
-<a name="contents"></a><a name="gbatek"></a>
-# GBATEK
-
-Gameboy Advance Technical Info - Extracted from no$gba version 2.9b
+Not every non-GBA bit of info has been removed. [PRs
+welcome](https://github.com/rust-console/gbatek-gbaonly/pulls) if you want to
+improve this document further.
 
 [About this Document](#aboutthisdocument)
 
@@ -13647,16 +13649,6 @@ Don't trust anything else. Never.
 - [THUMB Opcodes: Memory Multiple Load/Store (PUSH/POP and LDM/STM)](#thumbopcodesmemorymultipleloadstorepushpopandldmstm)
 - [THUMB Opcodes: Jumps and Calls](#thumbopcodesjumpsandcalls)
 - [ARM Pseudo Instructions and Directives](#armpseudoinstructionsanddirectives)
-- [ARM CP14 ICEbreaker Debug Communications Channel](#armcp14icebreakerdebugcommunicationschannel)
-- [ARM CP15 System Control Coprocessor](#armcp15systemcontrolcoprocessor)
-- [ARM CP15 Overview](#armcp15overview)
-- [ARM CP15 ID Codes](#armcp15idcodes)
-- [ARM CP15 Control Register](#armcp15controlregister)
-- [ARM CP15 Memory Managment Unit (MMU)](#armcp15memorymanagmentunitmmu)
-- [ARM CP15 Protection Unit (PU)](#armcp15protectionunitpu)
-- [ARM CP15 Cache Control](#armcp15cachecontrol)
-- [ARM CP15 Tightly Coupled Memory (TCM)](#armcp15tightlycoupledmemorytcm)
-- [ARM CP15 Misc](#armcp15misc)
 - [ARM CPU Instruction Cycle Times](#armcpuinstructioncycletimes)
 - [ARM CPU Versions](#armcpuversions)
 - [ARM CPU Data Sheet](#armcpudatasheet)
@@ -13683,12 +13675,8 @@ Don't trust anything else. Never.
 - [AUX DS Game Card Slot](#auxdsgamecardslot)
 - [AUX Link Port](#auxlinkport)
 - [AUX Sound/Headphone Socket and Battery/Power Supply](#auxsoundheadphonesocketandbatterypowersupply)
-- [AUX DSi SD/MMC Pin-Outs](#auxdsisdmmcpinouts)
 - [AUX Opening the GBA](#auxopeningthegba)
 - [AUX Mainboard](#auxmainboard)
-- [AUX DSi Component Lists](#auxdsicomponentlists)
-- [AUX DSi Internal Connectors](#auxdsiinternalconnectors)
-- [AUX DSi Chipset Pinouts](#auxdsichipsetpinouts)
 - [Pinouts - CPU - Signal Summary](#pinoutscpusignalsummary)
 - [Pinouts - CPU - Pinouts](#pinoutscpupinouts)
 - [Pinouts - Audio Amplifiers](#pinoutsaudioamplifiers)
@@ -13699,4 +13687,3 @@ Don't trust anything else. Never.
 - [AUX Xboo PC-to-GBA Multiboot Cable](#auxxboopctogbamultibootcable)
 - [AUX Xboo Flashcard Upload](#auxxbooflashcardupload)
 - [AUX Xboo Burst Boot Backdoor](#auxxbooburstbootbackdoor)
-- [About this Document](#aboutthisdocument)
