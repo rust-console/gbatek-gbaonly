@@ -1,9 +1,4 @@
-<a name="contents"></a><a name="gbatek"></a>
-# GBATEK
-
-Gameboy Advance Technical Info - Extracted from no$gba version 2.9b
-
----
+# ALERT
 
 **THIS DOCUMENT IS ONLY THE GBA PORTION OF GBATEK**
 
@@ -18,7 +13,10 @@ returns, so mostly I just cut the DS and DSi stuff and called it good.
 [PRs welcome](https://github.com/rust-console/gbatek-gbaonly/pulls) if you want
 to improve this document further.
 
----
+<a name="contents"></a><a name="gbatek"></a>
+# GBATEK
+
+Gameboy Advance Technical Info - Extracted from no$gba version 2.9b
 
 [About this Document](#aboutthisdocument)
 
